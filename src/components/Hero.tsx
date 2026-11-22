@@ -28,11 +28,11 @@ export default function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="hidden md:flex absolute right-0 top-0 h-full w-2/5 items-center justify-center">
+        <div className="absolute right-0 top-0 h-full w-2/5 flex items-center justify-center">
           <img
             src={CoverImage}
             alt="Workout library"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain p-4"
           />
         </div>
       </div>
